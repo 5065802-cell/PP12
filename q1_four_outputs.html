@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head><title>JS Output Methods</title></head>
+<body>
+  <h2>4 Output Methods Demo</h2>
+  <input type="text" id="txt" value="<b>Hello</b>">
+  <br><br>
+  <button onclick="document.getElementById('out').innerHTML = document.getElementById('txt').value">innerHTML</button>
+  <button onclick="document.getElementById('out').textContent = document.getElementById('txt').value">textContent</button>
+  <button onclick="console.log(document.getElementById('txt').value)">console.log()</button>
+  <button onclick="alert(document.getElementById('txt').value)">alert()</button>
+  <div id="out" style="margin-top:15px; border:1px solid #333; padding:10px;">Output appears here</div>
+</body>
+</html>
